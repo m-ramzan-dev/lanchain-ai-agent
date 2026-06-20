@@ -147,6 +147,7 @@ dependencies = [
     { name = "langchain" },
     { name = "langchain-ollama" },
     { name = "langsmith" },
+    { name = "ollama" },
     { name = "python-dotenv" },
 ]
 
@@ -157,6 +158,7 @@ requires-dist = [
     { name = "langchain", specifier = ">=1.3.9" },
     { name = "langchain-ollama", specifier = ">=1.1.0" },
     { name = "langsmith", specifier = ">=0.8.16" },
+    { name = "ollama", specifier = ">=0.6.2" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
 ]
 
